@@ -1,0 +1,6 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+192.168.202.1 deason-mbp.local puppet
+172.16.138.100 cloudera.demo0.com demo0
+172.16.138.101 cloudera.demo1.com demo1
+172.16.138.102 cloudera.demo2.com demo2
