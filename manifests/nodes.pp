@@ -9,13 +9,13 @@ node base_node {
 	include disable_swappiness
 }
 
-node 'cloudera.demo0.com' inherits base_node {
+node 'demo0.cloudera.com' inherits base_node {
 	#TODO: include cloudera manager install components
 	include wget
 }
 
-node 'cloudera.demo1.com' inherits base_node {
+node 'demo1.cloudera.com' inherits base_node {
 }
 
-node 'cloudera.demo2.com' inherits base_node {
+node 'demo2.cloudera.com' inherits base_node {
 }
