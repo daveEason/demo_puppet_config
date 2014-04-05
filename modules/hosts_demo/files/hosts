@@ -1,6 +1,7 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-192.168.202.1 deason-mbp.local puppet
+192.168.202.1 deason-mbp.local
+172.16.138.106 puppet.cloudera.com puppet
 172.16.138.100 demo0.cloudera.com demo0
 172.16.138.101 demo1.cloudera.com demo1
 172.16.138.102 demo2.cloudera.com demo2

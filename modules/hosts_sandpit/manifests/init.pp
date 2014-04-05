@@ -1,6 +1,6 @@
-# /etc/puppet/modules/hosts/manifests/init.pp
+# /etc/puppet/modules/hosts_sandpit/manifests/init.pp
 
-class hosts {
+class hosts_sandpit {
 
     case $::operatingsystem {
         centos: {
@@ -19,6 +19,6 @@ class hosts {
 	owner 	=> 'root',
 	group 	=> $admin_group,
 	mode 	=> '0644',
-	source => "puppet:///modules/hosts/hosts",
+	source => "puppet:///modules/hosts_sandpit/hosts",
     }
 }
