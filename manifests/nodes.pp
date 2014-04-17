@@ -6,6 +6,7 @@ node base_node {
 	include disable_selinux
 	include disable_firewall
 	include disable_swappiness
+        include rc_local
 }
 
 node 'demo0.cloudera.com' inherits base_node {
